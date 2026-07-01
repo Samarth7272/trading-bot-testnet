@@ -1,0 +1,5 @@
+2026-07-01 04:24:26 | INFO     | trading_bot | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'price': 'N/A (market order)'}
+2026-07-01 04:24:26 | INFO     | trading_bot | REQUEST POST /fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1782879866680, 'recvWindow': 5000}
+2026-07-01 04:24:26 | DEBUG    | trading_bot | Full request params (incl. signature): {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1782879866680, 'recvWindow': 5000, 'signature': '3e0044bcb17768e0955ef21e85049a765bfc0ecd354b90d0192b6affcac6eda3'}
+2026-07-01 04:24:26 | INFO     | trading_bot | RESPONSE POST /fapi/v1/order status=200 body={"orderId": 100001, "symbol": "BTCUSDT", "status": "FILLED", "side": "BUY", "type": "MARKET", "executedQty": "0.01", "origQty": "0.01", "avgPrice": "60123.50", "price": "60123.50", "updateTime": 1782879866680}
+2026-07-01 04:24:26 | INFO     | trading_bot | Order placed successfully: orderId=100001 status=FILLED

@@ -1,0 +1,5 @@
+2026-07-01 04:24:26 | INFO     | trading_bot | Placing order: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.5, 'price': 3200.0}
+2026-07-01 04:24:26 | INFO     | trading_bot | REQUEST POST /fapi/v1/order params={'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.5, 'price': 3200.0, 'timeInForce': 'GTC', 'timestamp': 1782879866681, 'recvWindow': 5000}
+2026-07-01 04:24:26 | DEBUG    | trading_bot | Full request params (incl. signature): {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.5, 'price': 3200.0, 'timeInForce': 'GTC', 'timestamp': 1782879866681, 'recvWindow': 5000, 'signature': 'a42d7dca469ab4a0d3c2b001723c8f25a58a79ff4f9b74923cb881ff03fa8d80'}
+2026-07-01 04:24:26 | INFO     | trading_bot | RESPONSE POST /fapi/v1/order status=200 body={"orderId": 100002, "symbol": "ETHUSDT", "status": "NEW", "side": "SELL", "type": "LIMIT", "executedQty": "0", "origQty": "0.5", "avgPrice": "0.00", "price": "3200.00", "updateTime": 1782879866681}
+2026-07-01 04:24:26 | INFO     | trading_bot | Order placed successfully: orderId=100002 status=NEW
