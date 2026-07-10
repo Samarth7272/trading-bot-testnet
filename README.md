@@ -1,4 +1,4 @@
-# Simplified Trading Bot — Binance Futures Testnet (USDT-M)
+# # Simplified Trading Bot — Binance Futures Testnet (USDT-M)
 
 A small, structured Python CLI application for placing MARKET and LIMIT
 orders on Binance Futures Testnet, with input validation, structured
