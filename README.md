@@ -4,7 +4,7 @@ A small, structured Python CLI application for placing MARKET and LIMIT
 orders on Binance Futures Testnet, with input validation, structured
 logging, and clean error handling.
 
-## Project Structure
+# Project Structure
 
 ```
 trading_bot/
