@@ -18,11 +18,6 @@
 
 
 
-![CLI](https://img.shields.io/badge/Interface-CLI%20(argparse)
-
--4EAA25)
-
-
 ![REST](https://img.shields.io/badge/API-REST%20%2B%20HMAC--SHA256-orange)
 
 
